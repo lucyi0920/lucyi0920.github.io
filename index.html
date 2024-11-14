@@ -3,40 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lucyi0920 - Test Page</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f2f5;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #0366d6;
-            margin-bottom: 1rem;
-        }
-        p {
-            color: #586069;
-            line-height: 1.5;
-        }
-    </style>
+    <title>Soomin Yi - Cloud Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to My GitHub Pages</h1>
-        <p>This is a test page for lucyi0920.kr</p>
-        <p>GitHub Pages successfully connected! 🎉</p>
-    </div>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#home" class="flex items-center py-4">
+                            <span class="font-semibold text-gray-500 text-lg">Soomin Yi</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <a href="#about" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">About</a>
+                    <a href="#skills" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Skills</a>
+                    <a href="#projects" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Projects</a>
+                    <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+                    Cloud Engineer & DevOps Enthusiast
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Specializing in AWS Cloud Solutions & Infrastructure as Code
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="https://github.com/lucyi0920" target="_blank" 
+                       class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300">
+                        View GitHub
+                    </a>
+                    <a href="#contact" 
+                       class="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition duration-300">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">About Me</h2>
+            <div class="text-gray-600 leading-relaxed">
+                <p class="mb-4">
+                    Cloud engineering enthusiast currently specializing in AWS and Azure through K-Digital Training program. 
+                    Passionate about building scalable and resilient cloud infrastructure with a focus on automation and 
+                    best practices.
+                </p>
+                <p>
+                    With a strong foundation in cloud technologies and hands-on experience with AWS services, I'm dedicated 
+                    to creating efficient and secure cloud solutions that drive business value.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-gray-50 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cloud Computing -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Cloud Computing</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• Amazon Web Services (AWS)</li>
+                        <li>• Azure</li>
+                        <li>• Hybrid Cloud Architecture</li>
+                        <li>• Cloud Security</li>
+                    </ul>
+                </div>
+                
+                <!-- DevOps -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">DevOps</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• Infrastructure as Code</li>
+                        <li>• CI/CD</li>
+                        <li>• AWS CloudFormation</li>
+                        <li>• Version Control (Git)</li>
+                    </ul>
+                </div>
+
+                <!-- Programming -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Programming</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li>• Python</li>
+                        <li>• JavaScript</li>
+                        <li>• Bash Scripting</li>
+                        <li>• React.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Projects</h2>
+            
+            <!-- Featured Project -->
+            <div class="bg-gray-50 rounded-lg p-6 mb-8 shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                    Global Media Platform - AWS Hybrid Cloud Solution
+                </h3>
+                <p class="text-gray-600 mb-4">
+                    Developed a comprehensive hybrid cloud infrastructure for efficient global media content delivery 
+                    using AWS services. Implemented multi-region deployment with automated scaling and robust security measures.
+                </p>
+                <div class="space-y-2">
+                    <p class="text-gray-700"><strong>Key Features:</strong></p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>Transit Gateway peering for cross-region communication</li>
+                        <li>Multi-AZ deployment with RDS read replicas</li>
+                        <li>Global Accelerator for optimized content delivery</li>
+                        <li>Automated infrastructure deployment using CloudFormation</li>
+                        <li>Comprehensive security with WAF, IAM, and ACM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="https://github.com/lucyi0920" target="_blank" 
+                   class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300">
+                    View More on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-gray-50 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Me</h2>
+            <div class="flex justify-center space-x-6">
+                <a href="mailto:lucyi030920@gmail.com" 
+                   class="flex items-center space-x-2 text-gray-600 hover:text-purple-600 transition duration-300">
+                    <i class="fas fa-envelope"></i>
+                    <span>lucyi030920@gmail.com</span>
+                </a>
+                <a href="https://github.com/lucyi0920" target="_blank"
+                   class="flex items-center space-x-2 text-gray-600 hover:text-purple-600 transition duration-300">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/[your-linkedin]" target="_blank"
+                   class="flex items-center space-x-2 text-gray-600 hover:text-purple-600 transition duration-300">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="max-w-6xl mx-auto px-4 text-center text-gray-600">
+            <p>© 2024 Soomin Yi. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
