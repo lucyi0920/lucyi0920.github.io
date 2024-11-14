@@ -109,15 +109,15 @@
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Project: MediaHub</h2>
             
-            <!-- PDF Viewers -->
+            <!-- PDF Viewer -->
             <div class="mb-8">
                 <div class="bg-gray-50 rounded-lg p-6 shadow-md">
                     <h3 class="text-2xl font-semibold text-gray-800 mb-4">
                         Project Documentation
                     </h3>
-                    <div class="aspect-[16/9] w-full">
+                    <div class="w-full" style="height: 800px;">
                         <iframe
-                            src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/lucyi0920/lucyi0920.github.io/main/HybridSolution.pdf"
+                            src="HybridSolution.pdf"
                             class="w-full h-full border-0 rounded-lg"
                             type="application/pdf"
                         ></iframe>
@@ -135,39 +135,72 @@
             </div>
 
             <!-- Project Overview -->
-            <div class="bg-gray-50 rounded-lg p-6 shadow-md">
-                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">
                     Project Overview
                 </h3>
-                <p class="text-gray-600 mb-4">
-                    Developed a comprehensive hybrid cloud solution for efficient global media content delivery 
-                    using AWS services. Implemented multi-region deployment with focus on performance optimization 
-                    and security.
-                </p>
-                <div class="space-y-4">
-                    <div>
-                        <p class="text-gray-700 font-semibold">Key Features:</p>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>Multi-region architecture (Seoul & São Paulo)</li>
-                            <li>Hybrid cloud integration with Site-to-Site VPN</li>
-                            <li>Global content delivery optimization</li>
-                            <li>Automated infrastructure deployment</li>
-                            <li>Multi-layered security architecture</li>
+                
+                <div class="space-y-6">
+                    <!-- Introduction -->
+                    <p class="text-gray-700 leading-relaxed">
+                        Developed an advanced hybrid cloud architecture for Company A, addressing scalability, latency, and global delivery challenges. 
+                        This proof-of-concept project demonstrates a high availability, secure, full-stack infrastructure for seamless media delivery.
+                    </p>
+            
+                    <!-- Problem Statement -->
+                    <div class="space-y-2">
+                        <h4 class="text-xl font-medium text-gray-800">Problem Statement</h4>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
+                            <li>High latency in content delivery, affecting user experience</li>
+                            <li>Scalability limits with on-premises infrastructure</li>
+                            <li>Complex multi-region connectivity needs</li>
+                            <li>High availability requirements for apps and databases</li>
                         </ul>
                     </div>
-                    <div>
-                        <p class="text-gray-700 font-semibold">Technologies Used:</p>
-                        <ul class="list-disc list-inside text-gray-600 space-y-1">
-                            <li>AWS Global Accelerator, Route 53</li>
-                            <li>Transit Gateway, Site-to-Site VPN</li>
-                            <li>RDS, S3, Lambda, API Gateway</li>
-                            <li>CloudFormation, CloudWatch</li>
-                            <li>WAF, IAM, Certificate Manager</li>
+            
+                    <!-- Solution Overview -->
+                    <div class="space-y-2">
+                        <h4 class="text-xl font-medium text-gray-800">Solution Overview</h4>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 pl-4">
+                            <li><span class="font-medium">Network Architecture:</span> Transit Gateway peering for cross-region communication between Seoul and São Paulo</li>
+                            <li><span class="font-medium">High Availability:</span> Multi-AZ VPCs with RDS read replicas for resilient data handling</li>
+                            <li><span class="font-medium">Hybrid Connectivity:</span> Site-to-Site VPN for secure on-premises integration</li>
+                            <li><span class="font-medium">Optimized Content Delivery:</span> Global Accelerator and Route 53 for latency reduction and global availability</li>
+                            <li><span class="font-medium">Serverless & Multi-language:</span> Built with Amplify, Lambda, and API Gateway for scalable content processing</li>
+                            <li><span class="font-medium">Automated Deployment:</span> CloudFormation templates for consistent infrastructure setup</li>
+                            <li><span class="font-medium">Security:</span> AWS WAF, IAM, and ACM for multi-layered protection</li>
+                            <li><span class="font-medium">Monitoring:</span> CloudWatch and SNS for proactive system health tracking</li>
                         </ul>
+                    </div>
+            
+                    <!-- Key Achievements -->
+                    <div class="space-y-2">
+                        <h4 class="text-xl font-medium text-gray-800">Key Achievements</h4>
+                        <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
+                            <li>Reduced latency, enhanced content delivery, and scalability</li>
+                            <li>Improved efficiency with automation and serverless setup</li>
+                            <li>Strengthened security and global compliance</li>
+                        </ul>
+                    </div>
+            
+                    <!-- Technologies -->
+                    <div class="space-y-2">
+                        <h4 class="text-xl font-medium text-gray-800">Technologies Used</h4>
+                        <p class="text-gray-700">
+                            AWS VPC, Transit Gateway, RDS, Global Accelerator, Route 53, Lambda, API Gateway, Amplify, 
+                            CloudFormation, WAF, CloudWatch, SNS
+                        </p>
+                    </div>
+            
+                    <!-- Project Context -->
+                    <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                        <p class="text-gray-600 text-sm">
+                            First AWS project developed as part of the K-Digital Training program at Soldesk 
+                            (AWS and Azure Hybrid/Multi-Cloud DevOps Course)
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Contact Section -->
