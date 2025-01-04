@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +22,7 @@
                 </div>
                 <div class="flex items-center space-x-1">
                     <a href="#about" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">About</a>
+                    <a href="#certifications" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Certifications</a>
                     <a href="#skills" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Skills</a>
                     <a href="#projects" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Projects</a>
                     <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-purple-500 transition duration-300">Contact</a>
@@ -60,8 +61,65 @@
         </div>
     </section>
 
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-12 bg-gray-50 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Certifications</h2>
+            <div class="space-y-6">
+                <!-- AWS Certification -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <img src="aws-logo.png" alt="AWS Logo" class="w-16 h-16">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800">AWS Certified Solutions Architect - Associate</h3>
+                            <p class="text-gray-600">Amazon Web Services (AWS)</p>
+                            <p class="text-gray-500">Issued Dec 2024 · Expires Dec 2027</p>
+                            <div class="mt-2">
+                                <span class="text-gray-700 font-medium">Skills:</span>
+                                <span class="text-gray-600">Amazon Web Services (AWS) · Cloud Computing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Manager Certification -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <img src="kicqa-logo.png" alt="KICQA Logo" class="w-16 h-16">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800">Network Manager Level 2</h3>
+                            <p class="text-gray-600">Korea Information and Communication Qualification Association</p>
+                            <p class="text-gray-500">Issued Sep 2024 · Expires Sep 2029</p>
+                            <div class="mt-2">
+                                <span class="text-gray-700 font-medium">Skills:</span>
+                                <span class="text-gray-600">Networking · TCP/IP · Linux · Windows · TCP · UDP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Analytics Certification -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-start space-x-4">
+                        <img src="google-logo.png" alt="Google Logo" class="w-16 h-16">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-800">Google Data Analytics Specialization</h3>
+                            <p class="text-gray-600">Google</p>
+                            <p class="text-gray-500">Issued Dec 2023</p>
+                            <p class="text-gray-500">Credential ID 669YFAJLCDA3</p>
+                            <div class="mt-2">
+                                <span class="text-gray-700 font-medium">Skills:</span>
+                                <span class="text-gray-600">Google Analytics · E-commerce Tracking · Data Collection · Data Analysis · Google Ads · Data Processing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
-    <section id="skills" class="py-12 bg-gray-50 px-4">
+    <section id="skills" class="py-12 bg-white px-4">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Technical Skills</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -102,106 +160,194 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-12 bg-white px-4">
+    <section id="projects" class="py-12 bg-gray-50 px-4">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Project: MediaHub</h2>
-            
-            <!-- PDF Viewer -->
-            <div class="mb-8">
-                <div class="bg-gray-50 rounded-lg p-6 shadow-md">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">
-                        Project Documentation
-                    </h3>
-                    <div class="w-full" style="height: 800px;">
-                        <iframe
-                            src="HybridSolution.pdf"
-                            class="w-full h-full border-0 rounded-lg"
-                            type="application/pdf"
-                        ></iframe>
+            <!-- First Project: MediaHub -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Project: MediaHub</h2>
+                
+                <!-- PDF Viewer -->
+                <div class="mb-8">
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                            Project Documentation
+                        </h3>
+                        <div class="w-full" style="height: 800px;">
+                            <iframe
+                                src="HybridSolution.pdf"
+                                class="w-full h-full border-0 rounded-lg"
+                                type="application/pdf"
+                            ></iframe>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <a 
+                                href="HybridSolution.pdf"
+                                target="_blank"
+                                class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300"
+                            >
+                                View Full PDF
+                            </a>
+                        </div>
                     </div>
-                    <div class="mt-4 text-center">
-                        <a 
-                            href="HybridSolution.pdf"
-                            target="_blank"
-                            class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300"
-                        >
-                            View Full PDF
-                        </a>
+                </div>
+
+                <!-- Project Overview -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">
+                        Project Overview
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Introduction -->
+                        <p class="text-gray-700 leading-relaxed">
+                            Developed an advanced hybrid cloud architecture for Company A, addressing scalability, latency, and global delivery challenges. 
+                            This proof-of-concept project demonstrates a high availability, secure, full-stack infrastructure for seamless media delivery.
+                        </p>
+                
+                        <!-- Problem Statement -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Problem Statement</h4>
+                            <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
+                                <li>High latency in content delivery, affecting user experience</li>
+                                <li>Scalability limits with on-premises infrastructure</li>
+                                <li>Complex multi-region connectivity needs</li>
+                                <li>High availability requirements for apps and databases</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Solution Overview -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Solution Overview</h4>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-4">
+                                <li><span class="font-medium">Network Architecture:</span> Transit Gateway peering for cross-region communication between Seoul and São Paulo</li>
+                                <li><span class="font-medium">High Availability:</span> Multi-AZ VPCs with RDS read replicas for resilient data handling</li>
+                                <li><span class="font-medium">Hybrid Connectivity:</span> Site-to-Site VPN for secure on-premises integration</li>
+                                <li><span class="font-medium">Optimized Content Delivery:</span> Global Accelerator and Route 53 for latency reduction and global availability</li>
+                                <li><span class="font-medium">Serverless & Multi-language:</span> Built with Amplify, Lambda, and API Gateway for scalable content processing</li>
+                                <li><span class="font-medium">Automated Deployment:</span> CloudFormation templates for consistent infrastructure setup</li>
+                                <li><span class="font-medium">Security:</span> AWS WAF, IAM, and ACM for multi-layered protection</li>
+                                <li><span class="font-medium">Monitoring:</span> CloudWatch and SNS for proactive system health tracking</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Technologies -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Technologies Used</h4>
+                            <p class="text-gray-700">
+                                AWS VPC, Transit Gateway, RDS, Global Accelerator, Route 53, Lambda, API Gateway, Amplify, 
+                                CloudFormation, WAF, CloudWatch, SNS
+                            </p>
+                        </div>
+                
+                        <!-- Project Context -->
+                        <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                            <p class="text-gray-600 text-sm">
+                                First AWS project developed as part of the K-Digital Training program at Soldesk 
+                                (AWS and Azure Hybrid/Multi-Cloud DevOps Course)
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Project Overview -->
-            <div class="bg-white p-8 rounded-lg shadow-md">
-                <h3 class="text-2xl font-semibold text-gray-800 mb-6">
-                    Project Overview
-                </h3>
+            <!-- Second Project: AI-Powered Short-Form video Generator -->
+            <div>
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Project: ShopReelAI: AI-Powered Short-Form Video Generator</h2>
                 
-                <div class="space-y-6">
-                    <!-- Introduction -->
-                    <p class="text-gray-700 leading-relaxed">
-                        Developed an advanced hybrid cloud architecture for Company A, addressing scalability, latency, and global delivery challenges. 
-                        This proof-of-concept project demonstrates a high availability, secure, full-stack infrastructure for seamless media delivery.
-                    </p>
-            
-                    <!-- Problem Statement -->
-                    <div class="space-y-2">
-                        <h4 class="text-xl font-medium text-gray-800">Problem Statement</h4>
-                        <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
-                            <li>High latency in content delivery, affecting user experience</li>
-                            <li>Scalability limits with on-premises infrastructure</li>
-                            <li>Complex multi-region connectivity needs</li>
-                            <li>High availability requirements for apps and databases</li>
-                        </ul>
+                <!-- PDF Viewer -->
+                <div class="mb-8">
+                    <div class="bg-gray-50 rounded-lg p-6 shadow-md">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                            Project Documentation
+                        </h3>
+                        <div class="w-full" style="height: 800px;">
+                            <iframe
+                                src="ShopReelAI.pdf"
+                                class="w-full h-full border-0 rounded-lg"
+                                type="application/pdf"
+                            ></iframe>
+                        </div>
+                        <div class="mt-4 text-center">
+                            <a 
+                                href="ShopReelAI.pdf"
+                                target="_blank"
+                                class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition duration-300"
+                            >
+                                View Full PDF
+                            </a>
+                        </div>
                     </div>
-            
-                    <!-- Solution Overview -->
-                    <div class="space-y-2">
-                        <h4 class="text-xl font-medium text-gray-800">Solution Overview</h4>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700 pl-4">
-                            <li><span class="font-medium">Network Architecture:</span> Transit Gateway peering for cross-region communication between Seoul and São Paulo</li>
-                            <li><span class="font-medium">High Availability:</span> Multi-AZ VPCs with RDS read replicas for resilient data handling</li>
-                            <li><span class="font-medium">Hybrid Connectivity:</span> Site-to-Site VPN for secure on-premises integration</li>
-                            <li><span class="font-medium">Optimized Content Delivery:</span> Global Accelerator and Route 53 for latency reduction and global availability</li>
-                            <li><span class="font-medium">Serverless & Multi-language:</span> Built with Amplify, Lambda, and API Gateway for scalable content processing</li>
-                            <li><span class="font-medium">Automated Deployment:</span> CloudFormation templates for consistent infrastructure setup</li>
-                            <li><span class="font-medium">Security:</span> AWS WAF, IAM, and ACM for multi-layered protection</li>
-                            <li><span class="font-medium">Monitoring:</span> CloudWatch and SNS for proactive system health tracking</li>
-                        </ul>
-                    </div>
-            
-                    <!-- Key Achievements -->
-                    <div class="space-y-2">
-                        <h4 class="text-xl font-medium text-gray-800">Key Achievements</h4>
-                        <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
-                            <li>Reduced latency, enhanced content delivery, and scalability</li>
-                            <li>Improved efficiency with automation and serverless setup</li>
-                            <li>Strengthened security and global compliance</li>
-                        </ul>
-                    </div>
-            
-                    <!-- Technologies -->
-                    <div class="space-y-2">
-                        <h4 class="text-xl font-medium text-gray-800">Technologies Used</h4>
-                        <p class="text-gray-700">
-                            AWS VPC, Transit Gateway, RDS, Global Accelerator, Route 53, Lambda, API Gateway, Amplify, 
-                            CloudFormation, WAF, CloudWatch, SNS
+                </div>
+                <!-- Project Overview -->
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">
+                        Project Overview
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Introduction -->
+                        <p class="text-gray-700 leading-relaxed">
+                            Developed an AI-powered short-form video creation platform utilizing AWS cloud services, addressing the challenges of time-consuming content creation and the need for tailored marketing materials. This solution enables quick, automated video generation while maintaining high quality and personalization.
                         </p>
-                    </div>
-            
-                    <!-- Project Context -->
-                    <div class="mt-6 p-4 bg-gray-50 rounded-lg">
-                        <p class="text-gray-600 text-sm">
-                            First AWS project developed as part of the K-Digital Training program at Soldesk 
-                            (AWS and Azure Hybrid/Multi-Cloud DevOps Course)
-                        </p>
+                
+                        <!-- Problem Statement -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Problem Statement</h4>
+                            <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
+                                <li>High costs and time investment in short-form content creation</li>
+                                <li>Difficulty in producing personalized content for target audiences</li>
+                                <li>Limited multi-language support for global market reach</li>
+                                <li>Complex content creation process for small businesses</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Solution Overview -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Solution Overview</h4>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 pl-4">
+                                <li><span class="font-medium">AI Integration:</span> Leveraging Amazon Bedrock and Rekognition for automated content generation and analysis</li>
+                                <li><span class="font-medium">Containerized Architecture:</span> Using ECS and Docker for scalable application deployment</li>
+                                <li><span class="font-medium">Serverless Processing:</span> Lambda functions for efficient video processing and content handling</li>
+                                <li><span class="font-medium">Infrastructure as Code:</span> Terraform for consistent and reproducible deployments</li>
+                                <li><span class="font-medium">Security:</span> IAM and CloudWatch for comprehensive security monitoring</li>
+                                <li><span class="font-medium">Data Management:</span> DynamoDB for user data and content metadata storage</li>
+                            </ul>
+                        </div>
+
+                        <!-- Key Achievements -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Key Achievements</h4>
+                            <ul class="list-disc list-inside space-y-1 text-gray-700 pl-4">
+                                <li>90% reduction in content creation time</li>
+                                <li>Cost optimization through serverless architecture</li>
+                                <li>Enhanced content personalization capabilities</li>
+                                <li>Improved accessibility for small businesses</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Technologies -->
+                        <div class="space-y-2">
+                            <h4 class="text-xl font-medium text-gray-800">Technologies Used</h4>
+                            <p class="text-gray-700">
+                                AWS Bedrock, Rekognition, ECS, ECR, Lambda, API Gateway, DynamoDB, CloudWatch, SNS, Docker, Terraform
+                            </p>
+                        </div>
+                
+                        <!-- Project Context -->
+                        <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                            <p class="text-gray-600 text-sm">
+                                Final project developed as part of the K-Digital Training program at Soldesk 
+                                (AWS and Azure Hybrid/Multi-Cloud DevOps Course)
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-12 bg-gray-50 px-4">
+    <section id="contact" class="py-12 bg-white px-4">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Me</h2>
             <div class="flex justify-center space-x-6">
@@ -225,9 +371,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-white py-6">
+    <footer class="bg-gray-50 py-6">
         <div class="max-w-6xl mx-auto px-4 text-center text-gray-600">
-            <p>© 2024 Soomin Yi. All rights reserved.</p>
+            <p>© 2025 Soomin Yi. All rights reserved.</p>
         </div>
     </footer>
 </body>
